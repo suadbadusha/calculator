@@ -1,0 +1,119 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(7, 7, 7);
+    margin: 0%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box{
+    width: 500px;
+    height: 560px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+}
+.box input{
+    display:flexbox;
+    justify-items: center;
+    width: 76%;
+    height: 80px;
+    margin:20px 0px 20px 43px;
+    border: none;
+    font-size: 26px;
+    background-color: transparent;
+    color: #fff;
+    
+}
+.box .display
+{
+    text-align: right;
+    font-size: 42px;
+}
+.box .buttons{
+    margin-left: 40px;
+}
+.box .buttons input{
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+    background-color: rgb(22, 22, 22);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    
+}
+.box .buttons input:hover{
+    background-color: rgb(56, 55, 55);
+}
+.zero_button{
+    width: 180px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 500px) {
+    body {
+      margin: 0;
+    }
+    .box{
+        width: 500px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    .box .buttons input{
+        width: 90px;
+        height: 90px;
+        margin: 5px;
+        background-color: rgb(22, 22, 22);
+        align-items: center;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    .box .buttons {
+        margin-left: 0px;
+      }
+  }
+  @media only screen and (max-width: 412px) 
+  {
+    .box .buttons input{
+        width: 80px;
+        height: 80px;
+        margin: 5px;
+        background-color: rgb(22, 22, 22);
+        align-items: center;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+  }
+  @media only screen and (max-width: 372px) {
+    .box .buttons input{
+        width: 70px;
+        height: 70px;
+        margin: 5px;
+        background-color: rgb(22, 22, 22);
+        align-items: center;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+  }
+  @media only screen and (max-width: 332px){
+    .box .buttons input{
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+        background-color: rgb(22, 22, 22);
+        align-items: center;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+  }
